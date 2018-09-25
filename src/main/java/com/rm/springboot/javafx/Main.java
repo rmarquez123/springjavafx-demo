@@ -1,4 +1,4 @@
-package com.gei.springboot.javafx;
+package com.rm.springboot.javafx;
 
 import javafx.application.Application;
 import javafx.scene.Parent;

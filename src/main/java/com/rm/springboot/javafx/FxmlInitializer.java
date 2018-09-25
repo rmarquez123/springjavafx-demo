@@ -1,4 +1,4 @@
-package com.gei.springboot.javafx;
+package com.rm.springboot.javafx;
 
 import java.io.IOException;
 import java.net.URL;

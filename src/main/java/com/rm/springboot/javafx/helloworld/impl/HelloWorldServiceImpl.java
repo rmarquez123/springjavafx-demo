@@ -1,6 +1,6 @@
-package com.gei.springboot.javafx.helloworld.impl;
+package com.rm.springboot.javafx.helloworld.impl;
 
-import com.gei.springboot.javafx.helloworld.HelloWorldService;
+import com.rm.springboot.javafx.helloworld.HelloWorldService;
 import javafx.scene.control.Alert;
 import javafx.scene.control.Label;
 import org.springframework.stereotype.Component;

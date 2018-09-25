@@ -15,7 +15,7 @@
           http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-5.0.xsd">
           
   
-  <bean class="com.gei.springboot.javafx.FxmlInitializer"> 
+  <bean class="com.rm.springboot.javafx.FxmlInitializer"> 
     <property name="sceneRoot" value="fxml/Sample.fxml"/>
     
   </bean>

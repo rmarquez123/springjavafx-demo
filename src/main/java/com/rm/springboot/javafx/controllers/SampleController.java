@@ -1,6 +1,6 @@
-package com.gei.springboot.javafx.controllers;
+package com.rm.springboot.javafx.controllers;
 
-import com.gei.springboot.javafx.helloworld.HelloWorldService;
+import com.rm.springboot.javafx.helloworld.HelloWorldService;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;

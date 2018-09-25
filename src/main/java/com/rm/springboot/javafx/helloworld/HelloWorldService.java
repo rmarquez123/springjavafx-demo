@@ -1,4 +1,4 @@
-package com.gei.springboot.javafx.helloworld;
+package com.rm.springboot.javafx.helloworld;
 
 /**
  * Service class for demonstration purposes.
