@@ -15,7 +15,7 @@ The init() method is the first method called and it takes place before the appli
 
 Next, <code>FXMLLoader</code>s will be created with the controller factories using the Spring instantiated controllers.  This step will be processed by a custom <code>FxmlInitializer</code> class, which is a Spring bean and should be configured with a Spring .xml file so that fxml files with Spring instantiated controllers can be injected by the Spring loader.  The fxml root should also be specified in the Spring .xml file.  
 
-This split of responsibilities is conducive for minimal work done by the <code>Main</code> and the (volatile) configurations left to be maintained with easy to access and modify Spring .xml files.
+This split of responsibilities is conducive for easy maintenance because minimal work is done by the <code>Main</code> and the (volatile) configurations are left to be maintained by easy to access and modify Spring .xml files.
 
 <h2>2. Sequence Entry:  <code>start()</code> </h2>
 
