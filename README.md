@@ -11,7 +11,9 @@ Below is the sequence diagram created for the implementation.
   
 <h2>1. Sequence Entry: <code>init()</code> </h2>
 
-The init() method is the first method called and it takes place before the application has started.  At this point the Main class will initiate the spring loading.  SpringBoot will return the application context after it is done loading.   JavaFX controllers  will also be initialized during the Spring loading if they are beans.  Next, FXMLLoaders will be created with the controller factories using the spring instantiated controllers.  This step will be processed by a custom FxmlInitializer class, which is a Spring bean and should be configured with a Spring .xml file so that fxml files with Spring instantiated controllers can be injected by the Spring loader.  The fxml root should also be specified.  This structure makes it so that minimal work is done by the Main and the (volatile) configurations are maintained within spring .xml files.
+The init() method is the first method called and it takes place before the application has started.  At this point the Main class will initiate the spring loading.  SpringBoot will return the application context after it is done loading.   JavaFX controllers  will also be initialized during the Spring loading if they are beans.  
+
+Next, FXMLLoaders will be created with the controller factories using the spring instantiated controllers.  This step will be processed by a custom FxmlInitializer class, which is a Spring bean and should be configured with a Spring .xml file so that fxml files with Spring instantiated controllers can be injected by the Spring loader.  The fxml root should also be specified.  This structure makes it so that minimal work is done by the Main and the (volatile) configurations are maintained within spring .xml files.
 
 <h2>2. Sequence Entry:  <code>start()</code> </h2>
 
