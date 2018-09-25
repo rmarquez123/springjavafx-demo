@@ -1,8 +1,8 @@
 # springjavafx-demo
-<h3>Purpose<h3>
+<h3>Purpose</h3>
 
 This demo uses a helper class to keep the Main class clean and illustrate an approach for improved maintenance by having minimal hard-coded configuration in the Main java file. 
-
+<h3> Implementation</h3>
 Below is the sequence diagram created for the implementation.  
 
   <div align="center" width="1200px"> 
